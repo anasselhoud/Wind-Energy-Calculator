@@ -38,7 +38,7 @@ a2=zeros(m,n);
 temp=[]; %var temporaire
 
 
-%calcul élémentaire
+%calcul Ã©lÃ©mentaire
 for j=1:n
     a1=0.3*ones(m,n);
     a2=zeros(m,n);
@@ -64,7 +64,7 @@ end
 
 ri=transpose(ri);
 
-%calcul de l'integrale des éléments par la méthode de trapezes
+%calcul de l'integrale des Ã©lÃ©ments par la mÃ©thode de trapezes
 for j=1:n
    cptot(1,j)=B*trapz(ri(:,1),cpe(:,j));
 end
@@ -90,5 +90,6 @@ end
  
 
 plot(Vinf,Ptot)
+grid on
 xlabel('Vitesse du vent (m/s)')
 ylabel('Puissance extraite')
