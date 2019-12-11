@@ -91,5 +91,5 @@ end
 
 plot(Vinf,Ptot)
 grid on
-xlabel('Vitesse du vent (m/s)')
-ylabel('Puissance extraite')
+xlabel('Wind velocity (m/s)')
+ylabel('Wind power/energy (W)')
